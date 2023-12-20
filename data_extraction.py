@@ -20,4 +20,6 @@ def load_data():
   train_data[["label"]] = train_data[["label"]].astype(str)
   train_data[["class_id"]] = train_data[["class_id"]].astype(int)
 
+  return train_data
+
 load_data()
