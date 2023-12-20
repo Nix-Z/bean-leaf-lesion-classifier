@@ -9,7 +9,7 @@ def analyze_data():
 
   print(f"\nData Features: {train_data.columns}") # Lists data features
 
-  print(wqaas "\nEmpty Values: ")
+  print("\nEmpty Values: ")
   print(train_data.isnull().sum()) # Number of null values per feature
 
   print("\nDuplicated Values: ")
