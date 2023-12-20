@@ -17,9 +17,9 @@ pipeline{
                 sh 'python3 datavisualization.py'
             }
         }
-        stage("Feature Engineering"){
+        stage("Data Transformation"){
             steps{
-                sh 'python3 feature_engineering.py'
+                sh 'python3 data_transformation.py'
             }
         }
     }
